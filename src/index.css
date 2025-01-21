@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gridFloat {
+  0% {
+    transform: perspective(500px) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(500px) rotateX(1deg);
+  }
+  100% {
+    transform: perspective(500px) rotateX(0deg);
+  }
+}
